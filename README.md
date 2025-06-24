@@ -94,10 +94,10 @@ Skilled at leading technical implementation, aligning with cross-functional stak
 Python · SQL · PySpark · R · JavaScript · Java
 
 **ML Engineering & System Design**
-FastAPI · LangChain · Celery · Docker · MinIO · Vespa · FAISS · Ollama
+FastAPI · LangChain · Celery · Docker · MinIO · Vespa · Weaviate · FAISS · Ollama
 
 **Modeling & Experimentation**
-scikit-learn · PyTorch · Time Series (custom & hierarchical forecasting) · Recommender Systems · NLP pipelines · Explainability (SHAP, counterfactuals)
+scikit-learn · Tensorflow/PyTorch · Time Series (custom & hierarchical forecasting) · Recommender Systems · NLP pipelines · Explainability (SHAP, counterfactuals)
 
 **Data Infrastructure**
 BigQuery · Supabase · PostgreSQL · MySQL · Airflow (light) · Feature store design (custom or embedded)
