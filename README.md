@@ -31,23 +31,23 @@ Skilled at leading technical implementation, aligning with cross-functional stak
 ## Selected Impact Highlights
 
 * **RAG & Real-Time ML APIs:**
-  → Architected a production-grade RAG pipeline using Vespa & Ollama, tested for latency, quality, and operational load
-  → Designed modular, observable APIs for inference and document processing
+  - Architected a production-grade RAG pipeline using Vespa & Ollama, tested for latency, quality, and operational load
+  - Designed modular, observable APIs for inference and document processing
 
 * **OCR & Document AI:**
-  → Delivered structured OCR pipelines with model fallback and rule-based validation
-  → Automated extraction across 10+ document types, replacing manual verification tasks
+  - Delivered structured OCR pipelines with model fallback and rule-based validation
+  - Automated extraction across 10+ document types, replacing manual verification tasks
 
 * **Marketing Optimization:**
-  → Led MMM and MTA development for marketing ROI tracking
-  → Integrated constrained regression into reporting pipelines
+  - Led MMM and MTA development for marketing ROI tracking
+  - Integrated constrained regression into reporting pipelines
 
 * **Retail Analytics:**
-  → Built demand forecasting and recommender models used across 5+ regions
-  → Developed simulation tools for customer behavior and store layout planning
+  - Built demand forecasting and recommender models used across 5+ regions
+  - Developed simulation tools for customer behavior and store layout planning
 
 * **Fairness & Explainability:**
-  → Developed SHAP + counterfactual XAI demonstrator, used in academic and stakeholder settings
+  - Developed SHAP + counterfactual XAI demonstrator, used in academic and stakeholder settings
 
 ---
 
