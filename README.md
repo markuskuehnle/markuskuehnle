@@ -20,7 +20,7 @@ Skilled at leading technical implementation, aligning with cross-functional stak
 ## Core Competencies
 
 * **ML System Architecture:** Modular pipelines, real-time inference, monitoring & observability
-* **LLM & RAG Systems:** Vespa, Ollama, LangChain, Weaviate; latency-optimized and benchmarked pipelines
+* **LLM & RAG Systems:** LangChain, Ollama, Vespa, Qdrant, Weaviate; latency-optimized and benchmarked pipelines
 * **Document AI & OCR:** High-accuracy extraction pipelines with fallback logic and rule-based checks
 * **Business-Critical Forecasting & Attribution:** Marketing Mix Models, multi-touch attribution
 * **Retail & Demand Intelligence:** Recommenders, segmentation, simulation, path optimization
@@ -79,9 +79,8 @@ Skilled at leading technical implementation, aligning with cross-functional stak
 
 **Research & Side Projects:**
 
-* **OCR System for Credit Evaluation (WIP):** Modular document pipeline with Celery, Docker & Azurite
-* **Football Talent Analytics (WIP):** Open-source ML project built in collaboration with a content creator
-* **Bias & Fairness Demonstrator (WIP):** SHAP + counterfactual analysis tool for AI transparency in hiring
+* **OCR System for Credit Evaluation:** Modular document pipeline with Celery, Docker & Azurite
+* **Bias & Fairness Demonstrator:** SHAP + counterfactual analysis tool for AI transparency in hiring
 * **Institute for Business Analytics (IBA), Ulm:** Consulting role, building stakeholder-facing forecasting tools incl. hierarchical models (e.g., for MLP)
 * **Solar & Energy Forecasting (WIP):** Educational guide for smart home optimization using ML
 * **Smart City Forecasting, Ulm:** Urban policy insights from air quality + traffic sensor data
