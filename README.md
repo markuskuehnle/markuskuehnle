@@ -53,7 +53,13 @@ Skilled at leading technical implementation, aligning with cross-functional stak
 
 ## Experience Summary
 
-**2025 – Today**
+**2025 – 2026**
+
+* Core Architect for asynchronous agent frameworks, Docker-based production deployments, and CI/CD pipelines.
+* Led a 3-person engineering team through MVP validation and architecture audits.
+* Standardized testing, modularity, and code reusability metrics across repositories.
+
+**2025 – 2026**
 
 * RAG system lead: architecture, LLM comparison, deployment stability
 * OCR pipeline owner: model selection, fallback design, logging/alerts
@@ -80,32 +86,16 @@ Skilled at leading technical implementation, aligning with cross-functional stak
 **Research & Side Projects:**
 
 * **OCR System for Credit Evaluation:** Modular document pipeline with Celery, Docker & Azurite
-* **Bias & Fairness Demonstrator:** SHAP + counterfactual analysis tool for AI transparency in hiring
+* **Explainable AI (XAI) Research Project:** Conceptualized and developed a SHAP + Counterfactual Fairness Demonstrator focused on algorithmic auditing and transparency in algorithmic hiring. Served as the technological foundation for ongoing research in Human-AI Interaction and robust, explainable system design (FastAPI backend).
 * **Institute for Business Analytics (IBA), Ulm:** Consulting role, building stakeholder-facing forecasting tools incl. hierarchical models (e.g., for MLP)
-* **Solar & Energy Forecasting (WIP):** Educational guide for smart home optimization using ML
 * **Smart City Forecasting, Ulm:** Urban policy insights from air quality + traffic sensor data
-
----
 
 ## Technology Stack
 
-**Programming**
-Python · SQL · PySpark · R · JavaScript · Java
-
-**ML Engineering & System Design**
-FastAPI · LangChain · Celery · Docker · MinIO · Vespa · Weaviate · FAISS · Ollama
-
-**Modeling & Experimentation**
-scikit-learn · Tensorflow/PyTorch · Time Series (custom & hierarchical forecasting) · Recommender Systems · NLP pipelines · Explainability (SHAP, counterfactuals)
-
-**Data Infrastructure**
-BigQuery · Supabase · PostgreSQL · MySQL · Airflow (light) · Feature store design (custom or embedded)
-
-**Deployment & MLOps**
-Azure (AI + DevOps) · GCP · Railway · CI/CD · Logging/Monitoring (custom + vendor tooling) · Modular inference APIs · Real-time + batch pipeline orchestration · Kubeflow
-
-**Visualization & Reporting**
-Plotly · Custom dashboards (Python, integrations)
+* **Languages:** Python, SQL, PySpark, R, JavaScript, Java
+* **Agentic & Frameworks:** Model Context Protocol (MCP), FastAPI, Celery, Redis, LangChain, Ollama, n8n
+* **ML & Modeling:** PyTorch, TensorFlow, scikit-learn, Time-Series Forecasting, Computer Vision, XAI (SHAP, counterfactuals)
+* **Data Infrastructure:** PostgreSQL, BigQuery, Supabase, MySQL, Vespa, Qdrant, Weaviate, Docker, Kubernetes
 
 ---
 
