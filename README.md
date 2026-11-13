@@ -1,111 +1,80 @@
-# Data Scientist / AI Engineer based in Germany
+# Markus Kühnle
 
-Designing scalable, production-grade ML systems that drive measurable business outcomes
+**AI Engineer** · Document Intelligence, Agents & Production AI · Germany · [LinkedIn](https://linkedin.com/in/markuskuehnle) (~16k)
 
----
+AI Engineer with 4+ years building production AI at the domain boundary: document intelligence (schema-gated extraction, span-level provenance), agents, RAG, and systems across manufacturing, pharma, health tech, banking, retail, automotive, and technical consulting.
 
-**Contact**
-LinkedIn: [linkedin.com/in/markuskuehnle](https://linkedin.com/in/markuskuehnle)
-
----
-
-## Profile
-
-Experienced Data Scientist & AI Engineer with 4+ years in designing and deploying real-world ML systems. Strong focus on modular architecture, system reliability, and business value delivery. Proven track record in high-impact domains including marketing attribution, retail intelligence, computer vision, and LLM integration.
-
-Skilled at leading technical implementation, aligning with cross-functional stakeholders, and driving initiatives from idea to production.
+Critical care nursing background (incl. infant ward), then tech from 2021. M.Sc. Information Systems @ University of Ulm (expected March 2027), part-time in parallel. Based in Germany. English C1.
 
 ---
 
-## Core Competencies
+## Selected work
 
-* **ML System Architecture:** Modular pipelines, real-time inference, monitoring & observability
-* **LLM & RAG Systems:** LangChain, Ollama, Vespa, Qdrant, Weaviate; latency-optimized and benchmarked pipelines
-* **Document AI & OCR:** High-accuracy extraction pipelines with fallback logic and rule-based checks
-* **Business-Critical Forecasting & Attribution:** Marketing Mix Models, multi-touch attribution
-* **Retail & Demand Intelligence:** Recommenders, segmentation, simulation, path optimization
-* **Bias & Explainability:** SHAP, Counterfactual Fairness, interactive tools for AI transparency
+### AI Engineer | Wieland AG · Ulm · Part-time
+**Oct 2025 – Present** · Copper / foundry production planning
 
----
+- **Requirements & Architecture:** Worked on-site with production and materials to define scope, data model, and system design for scrap-melting planning.
+- **Optimization:** Built a MILP solver (Python, OR-Tools) under ~40 chemical constraints; co-designed the material pipeline with the same domain experts.
+- **Data Quality:** Found and fixed material-data integrity issues during design so the optimizer was not fed bad inputs.
+- **Analytics & Agents:** Reporting and agent UI for plant users on a skill suite with guardrails, MCP, semantic layer, and agent orchestration (Ollama / Claude / other self-hosted models). Also Streamlit apps for other internal tools.
+- **Impact:** Pilot ~4% raw-material cost reduction; business case in the 7-figure €/year range (rollout ongoing).
 
-## Selected Impact Highlights
+Stack: Python, OR-Tools, FastAPI, Pydantic, Streamlit, MCP, semantic layer, agent orchestration, guardrails, Ollama, Claude, self-hosted LLMs, Linux.
 
-* **RAG & Real-Time ML APIs:**
-  - Architected a production-grade RAG pipeline using Vespa & Ollama, tested for latency, quality, and operational load
-  - Designed modular, observable APIs for inference and document processing
+Architecture: [`cases/production_ai_fde_solution_architecture.png`](cases/production_ai_fde_solution_architecture.png)
 
-* **OCR & Document AI:**
-  - Delivered structured OCR pipelines with model fallback and rule-based validation
-  - Automated extraction across 10+ document types, replacing manual verification tasks
+### AI Systems Engineer | PsyLogic · Ulm · University pre-founding venture
+**Aug 2025 – Aug 2026** · Ended after MVP / clinician pilot
 
-* **Marketing Optimization:**
-  - Led MMM and MTA development for marketing ROI tracking
-  - Integrated constrained regression into reporting pipelines
+High-stakes document intelligence for a clinical copilot (own IP).
 
-* **Retail Analytics:**
-  - Built demand forecasting and recommender models used across 5+ regions
-  - Developed simulation tools for customer behavior and store layout planning
+- **Knowledge Extraction:** Several thousand pages of regulated PDFs → layout/OCR with page/BBox anchors → hierarchical ToC → dual-pass extract + ground.
+- **Schema Gate:** Pydantic circuit breaker blocks ungated writes; self-heal ≤2; 99.4% extraction quality on a validated sample.
+- **Dual-Path Agent:** Deterministic rules path (measured <800ms p95) + guideline/protocol RAG; synthesis only with span-level provenance.
+- **Delivery & Pilot:** AI lead in a 3-person team (AI, web, clinician); MVP + clinician pilot at University Hospital Ulm; MDR Class IIa architecture review; venture not continued.
 
-* **Fairness & Explainability:**
-  - Developed SHAP + counterfactual XAI demonstrator, used in academic and stakeholder settings
+Architecture: [`cases/medextract_solution_architecture.png`](cases/medextract_solution_architecture.png)
 
----
+### Data Scientist | Alta Sigma GmbH · Ulm · Part-time / consulting
+**Jan 2025 – Sep 2025**
 
-## Experience Summary
+Modular data/ML platform (reusable enterprise modules).
 
-**2025 – 2026**
+- **RAG Module Ownership:** Multi-format corpora, quality/latency evaluation, product API.
+- **Document AI / OCR:** Multiple OCR approaches with fallback + rules; >90% faster vs. manual; VQA contribution.
+- **Enterprise Delivery:** Delivery owner for enterprise AI chatbots; technical discovery with stakeholders (no client names).
 
-* Core Architect for asynchronous agent frameworks, Docker-based production deployments, and CI/CD pipelines.
-* Led a 3-person engineering team through MVP validation and architecture audits.
-* Standardized testing, modularity, and code reusability metrics across repositories.
+### Data Scientist (Technical / Data Science Consulting) | elanyo GmbH · Stuttgart · Full-time
+**Nov 2023 – Dec 2024**
 
-**2025 – 2026**
+Technical consulting: led development and deployment of ML projects for industrial, retail, and e-commerce clients, covering models, data pipelines, and the APIs/UIs to put them into production.
 
-* RAG system lead: architecture, LLM comparison, deployment stability
-* OCR pipeline owner: model selection, fallback design, logging/alerts
-* Designed retriable, observable inference workflows with production constraints
+- **Computer Vision:** Defect detection + manufacturing API; scrap −25% in project context.
+- **Retail Pricing / Recommenders:** Competitor-price scraping + dynamic pricing; store-layout and path simulation (large retail client).
+- **Segmentation:** Automotive OEM (Europe); group-wide rollout; campaign ROI +15%.
 
-**2023 – 2024**
+### Data Analyst | Teva Pharmaceuticals · Internship / Bachelor thesis · Teva US
+**Sep 2022 – Sep 2023**
 
-* MMM & MTA: regression + constrained optimization, live budget reallocation
-* Clustering, segmentation, and demand forecasting across 10M+ records
-* GenAI-assisted analytics tool reduced analyst time by 40h/month
-* Store layout optimization system improved product exposure by 22%
-* Computer vision QA pipeline reduced defect rate by 25% in manufacturing
-
-**2022 – 2023**
-
-* Multilevel time-series forecasting for pharma field ops → Estimated uplift: +9% rep productivity and \$3M+ revenue capture across initial rollout markets
-* ML+RPA system for bid strategy → +9% win rate, 100h/month automation gain
-
-**2021**
-
-* Built self-service analytics tooling in R for internal teams
-* Reduced IT report requests by 50%, enabling stakeholder self-sufficiency
-
-**Research & Side Projects:**
-
-* **OCR System for Credit Evaluation:** Modular document pipeline with Celery, Docker & Azurite
-* **Explainable AI (XAI) Research Project:** Conceptualized and developed a SHAP + Counterfactual Fairness Demonstrator focused on algorithmic auditing and transparency in algorithmic hiring. Served as the technological foundation for ongoing research in Human-AI Interaction and robust, explainable system design (FastAPI backend).
-* **Institute for Business Analytics (IBA), Ulm:** Consulting role, building stakeholder-facing forecasting tools incl. hierarchical models (e.g., for MLP)
-* **Smart City Forecasting, Ulm:** Urban policy insights from air quality + traffic sensor data
-
-## Technology Stack
-
-* **Languages:** Python, SQL, PySpark, R, JavaScript, Java
-* **Agentic & Frameworks:** Model Context Protocol (MCP), FastAPI, Celery, Redis, LangChain, Ollama, n8n
-* **ML & Modeling:** PyTorch, TensorFlow, scikit-learn, Time-Series Forecasting, Computer Vision, XAI (SHAP, counterfactuals)
-* **Data Infrastructure:** PostgreSQL, BigQuery, Supabase, MySQL, Vespa, Qdrant, Weaviate, Docker, Kubernetes
+- **Campaign Analytics:** US smart-inhaler forecast (+30% accuracy vs. baseline) + HCP targeting for marketing/sample allocation.
+- **NLP / Conversational AI:** Built chatbot interfaces and conversational flows with Kore.ai for internal / US-facing use cases.
+- **Process Automation:** SQL/Python automation for US sales reporting (>100 h/month saved).
 
 ---
 
-## Collaboration & Delivery Style
+## Community
 
-* Autonomous in system design, testing, and deployment
-* Collaborative in cross-functional contexts (marketing, ops, engineering)
-* Strong written and verbal communication for technical and non-technical audiences
-* Able to scope, prioritize, and ship end-to-end pipelines under production constraints
+- LinkedIn (~16k): applied AI engineering from real projects (document intelligence, grounded agents, production AI)
+- Mentoring (FPDS): production ML/RAG reviews; workshops (tooling, semantic layer)
+- Research support, IBA Ulm (2025–2026): interactive XAI platform and hierarchical time-series baselines
+- Open source: credit-document OCR system (~275 stars, ~85 forks)
 
 ---
 
-If you’re looking for someone who can build ML systems that *actually work in production*, and align them with business goals, I’d be happy to connect.
+## Stack
+
+Document AI · schema gates (Pydantic) · span provenance · dual-path agents (rules + RAG) · MCP · semantic layer · agent orchestration · guardrails · FastAPI · Streamlit · OR-Tools · Ollama / Claude / self-hosted LLMs · Python/SQL · PostgreSQL/pgvector · Azure/GCP (project-dependent)
+
+---
+
+Open to forward-deployed / field-style AI engineering and platform / module ownership: technical ownership between complex systems, domain experts, and shipping.
