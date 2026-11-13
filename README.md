@@ -26,7 +26,7 @@ Architecture: [`cases/production_ai_fde_solution_architecture.png`](cases/produc
 ### AI Systems Engineer | PsyLogic · Ulm · University pre-founding venture
 **Aug 2025 – Aug 2026** · Ended after MVP / clinician pilot
 
-High-stakes document intelligence for a clinical copilot (own IP).
+Document intelligence for a clinical copilot (own IP).
 
 - **Knowledge Extraction:** Several thousand pages of regulated PDFs → layout/OCR with page/BBox anchors → hierarchical ToC → dual-pass extract + ground.
 - **Schema Gate:** Pydantic circuit breaker blocks ungated writes; self-heal ≤2; 99.4% extraction quality on a validated sample.
@@ -35,7 +35,7 @@ High-stakes document intelligence for a clinical copilot (own IP).
 
 Architecture: [`cases/medextract_solution_architecture.png`](cases/medextract_solution_architecture.png)
 
-### Data Scientist | Alta Sigma GmbH · Ulm · Part-time / consulting
+### Data Scientist | Alta Sigma GmbH · Ulm · Part-time
 **Jan 2025 – Sep 2025**
 
 Modular data/ML platform (reusable enterprise modules).
@@ -57,7 +57,7 @@ Technical consulting: led development and deployment of ML projects for industri
 **Sep 2022 – Sep 2023**
 
 - **Campaign Analytics:** US smart-inhaler forecast (+30% accuracy vs. baseline) + HCP targeting for marketing/sample allocation.
-- **NLP / Conversational AI:** Built chatbot interfaces and conversational flows with Kore.ai for internal / US-facing use cases.
+- **NLP / Conversational AI:** Built chatbot interfaces and conversational flows with Kore.ai for internal use cases.
 - **Process Automation:** SQL/Python automation for US sales reporting (>100 h/month saved).
 
 ---
@@ -73,7 +73,7 @@ Technical consulting: led development and deployment of ML projects for industri
 
 ## Stack
 
-Document AI · schema gates (Pydantic) · span provenance · dual-path agents (rules + RAG) · MCP · semantic layer · agent orchestration · guardrails · FastAPI · Streamlit · OR-Tools · Ollama / Claude / self-hosted LLMs · Python/SQL · PostgreSQL/pgvector · Azure/GCP (project-dependent)
+Document AI · Pydantic · provenance · Agents · RAG · MCP · semantic layer · agent orchestration · guardrails · FastAPI · Streamlit · OR-Tools · Ollama / Claude / self-hosted LLMs · Python/SQL · Azure/GCP 
 
 ---
 
